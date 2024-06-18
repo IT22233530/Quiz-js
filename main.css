@@ -1,0 +1,82 @@
+.main-outer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/question-3d-effect-background_52683-30326.jpg?t=st=1718731898~exp=1718735498~hmac=3e96ae7f1dcc023af918acc0128823afcb2054c057a61ba1242b6636d823bdd9&w=996');
+    background-size: cover;
+    background-position: center ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-wrapper{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(164, 163, 183, 0.845);
+
+} 
+.top-title-wrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.top-title-wrapper{
+    text-align: center;
+    font-size: 23px;
+    margin: 0;
+    padding: 20px 0;
+
+    
+}
+.cotroler-wrappre{
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+.controller-item{
+    height: 100%;
+    flex : 1;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+ 
+.item-inner{
+    background-color: white;
+    flex: 1;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.playground{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-bar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10px;
+}
